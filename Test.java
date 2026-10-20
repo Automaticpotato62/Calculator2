@@ -13,6 +13,8 @@ public class Test {
     }
     public void ownMethod(){
        System.out.println("Welcome to Java Math Calculator!");
-        System.out.printf("The total is %d\n" , ( num1 + num2));
+       System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+        //System.out.printf("The total is %d\n" , ( num1 + num2));
     }
+    
 }
