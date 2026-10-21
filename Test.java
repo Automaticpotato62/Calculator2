@@ -16,5 +16,9 @@ public class Test {
        System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
         //System.out.printf("The total is %d\n" , ( num1 + num2));
     }
+
+    public void ownMethod2(){
+        System.out.println(num1 + " * " + num2 = "=" + (num1 * num2));
+    }
     
 }
