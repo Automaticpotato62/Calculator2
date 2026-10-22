@@ -10,6 +10,10 @@ public class Driver {
         object2.ownMethod2();
         Calculator.multiplyTwo(7,8);
 
-        
+        object2.ownMethod3();
+        Calculator.subtractTwo(7,8);
+
+        object2.ownMethod4();
+        Calculator.divideTwo(7,8);
     }
 }

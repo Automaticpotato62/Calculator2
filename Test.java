@@ -18,7 +18,13 @@ public class Test {
     }
 
     public void ownMethod2(){
-        System.out.println(num1 + " * " + num2 + "=" + (num1 * num2));
+        System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+    }
+    public void ownMethod3(){
+        System.out.println(num1 + " - " + num2 + " = " + (num1-num2));
+    }
+    public void ownMethod4(){
+        System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
     }
     
 }
