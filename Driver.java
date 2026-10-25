@@ -28,6 +28,7 @@ if (dataType.equals("double")) {
         return;
     }
     // Add your result printing statement here
+    System.out.println(result);
 }
 
 // Code block that deals with integers
