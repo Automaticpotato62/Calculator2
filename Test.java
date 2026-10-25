@@ -15,18 +15,18 @@ public class Test {
     }
     public void ownMethod(){
        System.out.println("Welcome to Java Math Calculator!");
-       System.out.println(num1 + " + " + num2 + " = " + (num1 + num2));
+       System.out.println(num1 + " + " + num2 + " = " + Calculator.addTwo(num1, num2));
         //System.out.printf("The total is %d\n" , ( num1 + num2));
     }
 
     public void ownMethod2(){
-        System.out.println(num1 + " * " + num2 + " = " + (num1 * num2));
+        System.out.println(num1 + " * " + num2 + " = " + Calculator.multiplyTwo(num1 * num2));
     }
     public void ownMethod3(){
-        System.out.println(num1 + " - " + num2 + " = " + (num1-num2));
+        System.out.println(num1 + " - " + num2 + " = " + Calculator.subtractTwo(num1-num2));
     }
     public void ownMethod4(){
-        System.out.println(num1 + " / " + num2 + " = " + (num1 / num2));
+        System.out.println(num1 + " / " + num2 + " = " + Calculator.divideTwo(num1 / num2));
     }
     
 }
